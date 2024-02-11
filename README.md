@@ -1,4 +1,4 @@
-# 🌟 JSON Formatter
+# 🌟 JSON Key Formatter
 
 ## Description
 
@@ -13,13 +13,13 @@ This package allows you to replace the keys found in a JSON object with the prov
 ## Installation
 
 ```bash
-npm install json-formatter
+npm install format-json-keys
 ```
 
 ## Usage
 
 ```javascript
-const { transformKeysInObject } = require('json-formatter');
+import { transformKeysInObject } from './index.js';
 
 const obj = {
   _id: 1,
