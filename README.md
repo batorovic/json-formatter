@@ -13,7 +13,7 @@ This package allows you to replace the keys found in a JSON object with the prov
 ## Installation
 
 ```bash
-npm install format-json-keys
+npm install json-key-formatter
 ```
 
 ## Usage
