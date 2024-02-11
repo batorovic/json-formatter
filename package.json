@@ -1,0 +1,31 @@
+{
+  "name": "json-formatter",
+  "version": "1.0.0",
+  "description": "Replaces the keys found in a JSON object with the provided values.",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/batorovic/json-formatter"
+  },
+  "bugs": {
+    "url": "https://github.com/batorovic/json-formatter/issues"
+  },
+  "keywords": [
+    "json-formatter",
+    "json",
+    "replace",
+    "value",
+    "formatter",
+    "utility"
+  ],
+  "author": "batorovic",
+  "license": "MIT"
+}
