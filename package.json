@@ -1,5 +1,5 @@
 {
-  "name": "json-formatter",
+  "name": "format-json-keys",
   "version": "1.0.0",
   "description": "Replaces the keys found in a JSON object with the provided values.",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/batorovic/json-formatter"
+    "url": "git+https://github.com/batorovic/json-formatter.git"
   },
   "bugs": {
     "url": "https://github.com/batorovic/json-formatter/issues"
