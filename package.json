@@ -1,6 +1,6 @@
 {
   "name": "json-key-formatter",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Replaces the keys found in a JSON object with the provided values.",
   "main": "index.js",
   "type": "module",
@@ -9,11 +9,12 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "node index.test.js"
+    "test": "node index.test.js",
+    "semantic-release": "semantic-release --branches main"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/batorovic/json-formatter.git"
+    "url": "https://github.com/batorovic/json-formatter.git"
   },
   "bugs": {
     "url": "https://github.com/batorovic/json-formatter/issues"
@@ -27,5 +28,8 @@
     "utility"
   ],
   "author": "batorovic",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "semantic-release": "^23.0.2"
+  }
 }
