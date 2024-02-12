@@ -6,8 +6,9 @@
   "type": "module",
   "engines": {
     "node": "^14.18.0 || >=16.0.0"
-  }, 
+  },
   "scripts": {
+    "commit": "git-cz",
     "start": "node index.js",
     "test": "node index.test.js",
     "semantic-release": "semantic-release --branches main"
@@ -30,7 +31,12 @@
   "author": "batorovic",
   "license": "MIT",
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
     "semantic-release": "^23.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
-  
 }
