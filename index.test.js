@@ -1,5 +1,5 @@
-import { transformKeysInObject } from './index.js';
-import assert from 'assert';
+const assert = require('assert');
+const { transformKeysInObject } = require('./index.js');
 
 const testEmptyObject = () => {
   try {

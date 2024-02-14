@@ -19,7 +19,9 @@ npm install json-key-formatter
 ## Usage
 
 ```javascript
-import transformKeysInObject from 'json-formatter';
+import { transformKeysInObject } from 'json-key-formatter';
+//OR
+const { transformKeysInObject } = require('json-key-formatter');
 
 const obj = {
   _id: 1,

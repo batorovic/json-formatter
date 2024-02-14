@@ -5,7 +5,7 @@
  * @returns {Object} - The transformed object.
  */
 
-export function transformKeysInObject(obj, keyMappings) {
+const transformKeysInObject = (obj, keyMappings) => {
   return Object.entries(obj).reduce((newObj, [key, value]) => {
     const updatedKey = keyMappings[key] ? keyMappings[key] : key;
     newObj[updatedKey] =
@@ -16,4 +16,6 @@ export function transformKeysInObject(obj, keyMappings) {
         : value;
     return newObj;
   }, {});
-}
+};
+
+module.exports = { transformKeysInObject };
